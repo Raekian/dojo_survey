@@ -1,0 +1,27 @@
+body {
+    display: flex; align-items: center; justify-content: center;
+}
+
+.container {
+    display: flex; flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 5px black solid;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+label, input, select {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.sub {
+    margin-left: 300px;
+}
